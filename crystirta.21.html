@@ -7,14 +7,15 @@
     <title>CRYSTIRTA.21</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <div class="container1">
-        <h1>CRYSTIRTA.21</h1>
+    <div class="container1" data-aos="fade-down" data-aos-delay="800">
+        <h1 data-aos="fade-down" data-aos-delay="1000">CRYSTIRTA.21</h1>
     </div>
     <div class="grid-container">
         <div id="slider">
-            <div class="slides" data-aos="fade-right" data-aos-delay="1600">
+            <div class="slides" data-aos="fade-up" data-aos-delay="1200" data-aos-duration="2000">
     
                 <!-- radio button start -->
                
@@ -44,7 +45,7 @@
     
                 <!-- auto navigation start -->
             
-                <div class="nav-auto">
+                <div class="nav-auto" data-aos="fade-right" data-aos-delay="1200">
                     <div class="auto-btn1"></div>
                     <div class="auto-btn2"></div>
                     <div class="auto-btn3"></div>
@@ -55,7 +56,7 @@
     
             </div>
                 <!-- manual navigation start -->
-            <div class="nav-manual">
+            <div class="nav-manual" data-aos="fade-right" data-aos-delay="1200">
                 <label for="radio1" class="manual-btn"></label>
                 <label for="radio2" class="manual-btn"></label>
                 <label for="radio3" class="manual-btn"></label>
@@ -64,24 +65,30 @@
                 <!-- manual navigation end -->
                 
         </div>
-        <div class="cont-ig">
+        <div class="cont-ig" data-aos="fade-right" data-aos-delay="1300">
             <div class="button-ig">
                 <img src="img/ig.png" alt="" class="ig">
                 <a href="https://www.instagram.com/kuromaruuuuu/">Instagram</a>
             </div>
         </div>
-        <div class="cont-wa">
+        <div class="cont-wa" data-aos="fade-left" data-aos-delay="1500">
             <div class="button-wa">
                 <img src="img/wa.png" alt="" class="wa">
-                <a href="https://api.whatsapp.com/send?phone=6289523765662&text=TEST">WhatsApp</a>
+                <a href="https://api.whatsapp.com/send?phone=6289523765662&text=TE">WhatsApp</a>
             </div>
         </div>
-        <div class="cont-shopee">
+        <div class="cont-shopee" data-aos="fade-right" data-aos-delay="1700">
             <div class="button-shopee">
                 <img src="img/shopee.png" alt="" class="shopee">
                 <a href="#">Shopee</a>
             </div>
         </div>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
 </body>
 </html>
