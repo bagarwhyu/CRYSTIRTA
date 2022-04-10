@@ -94,7 +94,7 @@ body{
 .nav-manual{
     position: absolute;
     width: 45vw;
-    margin-top: -40px;
+    margin-top: -3vw;
     display: flex;
     justify-content: center;
 }
@@ -137,7 +137,7 @@ body{
     position: absolute;
     display: flex;
     width: 45vw;
-    margin-top: 27.1vw;
+    margin-top: 27vw;
     justify-content: center;
 }                                       
 
@@ -351,6 +351,7 @@ img.shopee{
 
     #slider{
         margin-left: 15vw;
+        margin-top: 10vw;
         width: 70vw;
         height: 40vw
     }
@@ -372,11 +373,11 @@ img.shopee{
     
     .nav-manual{
         width: 70vw;
-        margin-top: -40px;
+        margin-top: -8vw;
     }
 
     .nav-auto{
         width: 70vw;
-        margin-top: 32.8vw;
+        margin-top:32vw;
     }        
 }
